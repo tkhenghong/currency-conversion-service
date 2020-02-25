@@ -31,6 +31,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+
+	// REST client in Spring Boot
+	compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
 }
 
 dependencyManagement {
